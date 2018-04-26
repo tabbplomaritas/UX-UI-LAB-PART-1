@@ -121,14 +121,13 @@ main {
 
 
 #hero {
-  background-image: url(images/RachelWedding.jpg);
+  background: url(images/RachelWedding.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 60vw;
   width: 100%;
   max-width: 100rem;
-  /* margin-bottom: 2rem; */
 }
 
 
@@ -142,7 +141,7 @@ img {
   box-shadow: 4px 4px 29px -5px  #414345;
 }
 
-.about {
+#about {
   color: #414345;
   margin: 2rem;
   font-weight: 300;
@@ -154,7 +153,7 @@ img {
   align-items: center;
 }
 
-.about h1 {
+#about h1 {
   color: #35B0AB;
   font-family: 'IBM Plex Serif', serif;
   text-align: left;
@@ -162,16 +161,25 @@ img {
   margin-bottom: .5rem;
 }
 
+.hello {
+  padding: 2rem;
+  
+}
+
 footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   text-align: center;
+  letter-spacing: .25rem;
   width: 100%;
   font-size: 2rem;
   height: 8rem;
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
   background-color: #414345;
-  color: #C5F0A4;
+  background: linear-gradient(90deg, rgba(34, 108, 128, 0.644) 0%, rgba(53, 176, 172, 0.705) 35%, rgba(197, 240, 164, 0.253) 100%);
+  color: #414345;
 }
 
 footer p {
@@ -200,11 +208,15 @@ footer p {
     display: none;
   }
 
-  .about {
+  #about {
     flex-direction: row;
     justify-content: space-between;
     height: 40rem;
+    background: linear-gradient(90deg, rgba(34, 108, 128, 0.644) 0%, rgba(53, 176, 172, 0.705) 35%, rgba(197, 240, 164, 0.253) 100%);
+  }
 
+  #about h1 {
+    color: white;
   }
   .hello {
     padding: 3rem;
