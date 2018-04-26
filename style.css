@@ -1,4 +1,5 @@
-/* #FAFFB8
+/* style guide colors:
+ #FAFFB8
 #C5F0A4
 #35B0AB
 #226B80
@@ -58,18 +59,20 @@ header {
 .btn {
   font-family: 'IBM Plex Serif', serif;
   letter-spacing: .1rem;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
   margin: 1rem 0;
   background-color: #226B80;
-  text-align: center;
-  color: white;
   width: 80%;
   height: 3rem;
   padding: .5rem;
-  font-size: 2rem;
+  
   -webkit-box-shadow: 4px 4px 29px -5px #414345;
   -moz-box-shadow: 4px 4px 29px -5px #414345;
   box-shadow: 4px 4px 29px -5px  #414345;
-  text-transform: uppercase;
+
   transition: .3s all;
 
 }
